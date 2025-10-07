@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Operating Scheduling</title>
+        <link rel="stylesheet" href="generalDesign.css">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="body.css">
+        <link rel="stylesheet" href="sectionThree.css">
+        <link rel="stylesheet" href="schedulDesign.css">
+    </head>
+    <body>
+        
+        <header>
+
+            <nav>
+                <h2 class="logo">Jalal Sadat</h2>
+                <ul>
+                    <li><a href="#" class="linkDesign">Home</a></li>
+                    <li><a href="#scheduler" class="linkDesign">Scheduler Design</a></li>
+                    <li><a href="#schedul-design" class="linkDesign">Schedul Algorithm</a></li>
+                    <li><a href="https://youtube.com/shorts/_SCrB3cQzYE?si=lYxCXNY1DuxM2fq1" target="_blank" class="linkDesign">
+                        Video</a></li>
+
+                </ul>
+            </nav>
+
+           <div>
+            <h1 class="Title"> 
+               <span class="title-container">
+                  What is <span class="titleAnima">Scheduler Design?</span>
+               </span>
+            </h1>
+           </div>
+
+        </header>
+
+
+    <main>
+
+        <section class="section-2" id="scheduler">
+            <h2 class="heading">Scheduler Design</h2>
+            <p class="paragraph">
+                Scheduler Design refers to the creation and implementation
+                of the algorithms and policies that the Operating System
+                uses to decide which process (or thread) gets to use the
+                CPU(Centereal Processing Unit) and for how long. The main
+                goal is to maximize CPU utiliazatoin (keep the CPU as busy as possible)
+                and ensure that the system is responsive, fair, and
+                efficient for all users and process
+            </p>
+        </section>
+
+        <div class="section-3">
+            <section class="nonPreemptive-container image-background">
+                <h2 class="Nonprem-title">Preemptive (Modern Way)</h2>
+                <p class="Nonprem-Par">
+                    The OS can pause a running program to give another one a turn.
+                     Lika meeting with a timer. Everyone gets a short, fair turn to speak.
+                      This is essential for all modern computers (Windows, Mac, Linux).
+                </p>
+            </section>
+           
+            <section class="nonPreemptive-container">
+                <h2 class="Nonprem-title">Non-Preemptive (Old Way)</h2>
+                <p class="Nonprem-Par">
+                    A program keeps the CPU until if finishes or pauses itself. 
+                    Like a meeting with no breaks. One person talks until they 
+                    are done.
+                </p>
+            </section>
+        </div>
+
+        <div class="schedulDesign" id="schedul-design">
+
+            <section class="section-4">
+                    <h2>Common Scheduling Algorithms (Kinds of Design)</h2>
+            </section>
+
+            <div class="container">
+                <section class="design">
+                    <h2 class="design-heading">First Come, First Served</h2>
+                    <p class="design-paragraph">
+                        First program in line is the first one run.
+                    </p>
+                </section>
+
+                <section class="design">
+                    <h2 class="design-heading">Shortest Job First</h2>
+                    <p class="design-paragraph">
+                        Picks the process with the smallest total CPU burst.
+                    </p>
+                </section>
+
+                <section class="design">
+                    <h2 class="design-heading">Priority Scheduling</h2>
+                    <p class="design-paragraph">
+                        Each program has a priority level. The highest priority runs first.
+                    </p>
+                </section>
+
+                <section class="design">
+                    <h2 class="design-heading">Round Robin</h2>
+                    <p class="design-paragraph">
+                        Every program gets a small, fixed time slice.
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    </body>
+</html>

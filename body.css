@@ -1,0 +1,54 @@
+.section-2{
+    background-image: url('images/image-2.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 90%;
+    max-width: 800px;
+    border: 2px #3498db solid;
+    margin: 4rem auto;
+    border-radius: 1rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0, 0.3);
+}
+
+.section-2::before{
+    content: "";
+    background: rgba(0,0,0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    border-radius: 1rem;
+
+
+}
+
+
+
+.heading{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #3498db;
+    padding: 2rem 1rem 1rem;
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 2px 4px rgba(0,0,0, 0.8);
+
+}
+
+.paragraph{
+    font-size: 1.2rem;
+    line-height: 1.7;
+    font-weight: 400;
+    padding: 0 2rem 2rem;
+    color: #f8f9fa;
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+    margin: 0 auto;
+    text-shadow: 0 1px 2px rgba(0, 0, 0,  0.6);
+}
